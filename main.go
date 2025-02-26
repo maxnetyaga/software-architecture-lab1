@@ -12,6 +12,7 @@ type TimeResponse struct {
 	Time string `json:"time"`
 }
 
+// Splendid function. Like it
 func timeHandler(w http.ResponseWriter, r *http.Request) {
 	if r.Method != "GET" {
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
