@@ -4,5 +4,3 @@
  - maxnetyaga
  - KostianDev
  - zhkcll
-
-*bad words*
